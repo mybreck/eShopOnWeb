@@ -5,8 +5,13 @@ resources:
   pipelines:
     - pipeline: eshoponweb-ci
       source: eshoponweb-ci # given pipeline name
-      trigger: true
-
+      branch: main
+      trigger:
+        branches:
+          include:
+          - main
+          
+trigger: none
 
 variables:
   resource-group: 'AZ400-EWebShop-rg'
