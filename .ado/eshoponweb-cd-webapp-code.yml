@@ -12,8 +12,8 @@ variables:
   resource-group: 'AZ400-EWebShop-rg'
   location: 'eastus'
   templateFile: '.azure/bicep/webapp.bicep'
-  subscriptionid: 'YOUR-SUBSCRIPTION-ID'
-  azureserviceconnection: 'azure subs'
+  subscriptionid: 'd2d534a9-ddb9-449f-9466-0fa04218c17d'
+  azureserviceconnection: 'myBreck-Azure'
   # webappname: 'az400-webapp-NAME'
   webappname: 'webapp-windows-eshop'
   
